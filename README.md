@@ -41,7 +41,7 @@ To test a connection, you can add the ``hello.ts.net`` machine into your network
 may need to modify your ACLs to allow access to the test machine. For example, I have
 a separate Tailscale token that is tagged with ``tag:test``. My ACL looks like:
 
-```json
+```jsonc
 {
   "hosts": {
       "hello-test": "100.101.102.103"
